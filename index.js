@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-app.get('/udemy-react-nodejs', (req, res) => {
+app.get('udemy-react-nodejs.onrender.com/', (req, res) => {
     res.send({hi:'there'});
 });
 
