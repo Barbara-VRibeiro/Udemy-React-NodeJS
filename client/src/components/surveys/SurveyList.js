@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import { fetchSurveys } from "../../action";
 
 class SurveyList extends Component {
+
     componentDidMount() {
         this.props.fetchSurveys();
     }
