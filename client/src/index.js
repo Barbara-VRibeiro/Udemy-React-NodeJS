@@ -8,6 +8,10 @@ import reduxThunk from 'redux-thunk';
 import App from './components/App';
 import reducers from './reducers'
 
+//dev only axios
+import axios from "axios";
+window.axios = axios;
+
 const el = document.getElementById("root");
 
 const root = ReactDOM.createRoot(el);
